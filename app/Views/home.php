@@ -2,27 +2,12 @@
 
 <?= $this->section('content') ?>
 
-  <div class="card user-info-card mb-3">
-        <div class="card-body d-flex align-items-center">
-          <div class="user-profile me-3">
-            <img src="<?= base_url()?>assets/img/bg-img/2.jpg" alt="">
-          </div>
-          <div class="user-info">
-            <div class="d-flex align-items-center">
-              <h5 class="mb-1"><?= session('nama') ?></h5>
-              <span class="badge bg-warning ms-2 rounded-pill">Pro</span>
-            </div>
-            <p class="mb-0"><?= session('nip') ?></p>
-          </div>
-        </div>
-      </div>
-
   <!-- Tiny Slider One Wrapper -->
   <div class="tiny-slider-one-wrapper">
     <div class="tiny-slider-one">
       <!-- Single Hero Slide -->
       <div>
-        <div class="single-hero-slide bg-overlay" style="background-image: url('img/bg-img/31.jpg')">
+        <div class="single-hero-slide bg-overlay" style="background-image: url('https://pusaka.s3.ap-southeast-3.amazonaws.com/public/path_banner/path_banner_20230404090752.webp')">
           <div class="h-100 d-flex align-items-center text-center">
             <div class="container">
               <h3 class="text-white mb-1">Build with Bootstrap 5</h3>
@@ -35,7 +20,7 @@
 
       <!-- Single Hero Slide -->
       <div>
-        <div class="single-hero-slide bg-overlay" style="background-image: url('img/bg-img/33.jpg')">
+        <div class="single-hero-slide bg-overlay" style="background-image: url('https://pusaka.s3.ap-southeast-3.amazonaws.com/public/path_banner/path_banner_20240515125509.jpg')">
           <div class="h-100 d-flex align-items-center text-center">
             <div class="container">
               <h3 class="text-white mb-1">Vanilla JavaScript</h3>
@@ -48,37 +33,11 @@
 
       <!-- Single Hero Slide -->
       <div>
-        <div class="single-hero-slide bg-overlay" style="background-image: url('img/bg-img/32.jpg')">
+        <div class="single-hero-slide bg-overlay" style="background-image: url('https://pusaka.s3.ap-southeast-3.amazonaws.com/public/path_banner/path_banner_20240515125542.jpg')">
           <div class="h-100 d-flex align-items-center text-center">
             <div class="container">
               <h3 class="text-white mb-1">PWA Ready</h3>
               <p class="text-white mb-4">Click the "Add to Home Screen" button &amp; <br> enjoy it like an app.</p>
-              <a class="btn btn-creative btn-warning" href="#">Buy Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Single Hero Slide -->
-      <div>
-        <div class="single-hero-slide bg-overlay" style="background-image: url('img/bg-img/33.jpg')">
-          <div class="h-100 d-flex align-items-center text-center">
-            <div class="container">
-              <h3 class="text-white mb-1">Lots of Elements &amp; Pages</h3>
-              <p class="text-white mb-4">Create your website in days, not months.</p>
-              <a class="btn btn-creative btn-warning" href="#">Buy Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Single Hero Slide -->
-      <div>
-        <div class="single-hero-slide bg-overlay" style="background-image: url('img/bg-img/1.jpg')">
-          <div class="h-100 d-flex align-items-center text-center">
-            <div class="container">
-              <h3 class="text-white mb-1">Dark &amp; RTL Ready</h3>
-              <p class="text-white mb-4">You can use the Dark or <br> RTL mode of your choice.</p>
               <a class="btn btn-creative btn-warning" href="#">Buy Now</a>
             </div>
           </div>

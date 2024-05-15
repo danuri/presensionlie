@@ -163,7 +163,7 @@
     </div>
   </div>
 
-  <div class="page-content-wrapper py-3">
+  <div class="page-content-wrapper">
     <?= $this->renderSection('content') ?>
   </div>
 
