@@ -108,15 +108,6 @@
     </div>
   </div>
 
-  <div id="toastMessage" class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="d-flex">
-      <div class="toast-body">
-        Hello, world! This is a toast message.
-      </div>
-      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-    </div>
-  </div>
-
   <!-- All JavaScript Files -->
   <script src="<?= base_url()?>assets/js/bootstrap.bundle.min.js"></script>
   <script src="<?= base_url()?>assets/js/slideToggle.min.js"></script>
@@ -149,9 +140,9 @@
       console.log(response);
 
       alert(response.data.message);
-      // if(response.data.error == false){
-      //   window.location.replace("/");
-      // }
+      if(response.data.error == false){
+        window.location.replace("/");
+      }
 
     })
     .catch(function (error) {
