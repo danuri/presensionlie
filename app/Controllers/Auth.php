@@ -43,6 +43,7 @@ class Auth extends BaseController
             // set_cookie('remember_token',$response->token,3600);
 
             $ses_data = [
+              'server'     => $server,
               'nip'        => $response->user->id,
               'nama'       => $response->user->name,
               'isLoggedIn' => TRUE

@@ -141,7 +141,7 @@
 
       alert(response.data.message);
       if(response.data.error == false){
-        window.location.replace("/");
+        window.location.replace("<?= site_url()?>");
       }
 
     })
