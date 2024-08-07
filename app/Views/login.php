@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="<?= base_url()?>assets/css/custom.css">
 
   <!-- Web App Manifest -->
-  <link rel="manifest" href="<?= base_url()?>assets/manifest.json">
+  <link rel="manifest" href="<?= base_url()?>manifest.json">
 </head>
 
 <body>

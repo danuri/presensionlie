@@ -15,8 +15,9 @@ class Presensi extends BaseController
     public function checkin()
     {
       if (! $this->validate([
-          'nip' => "required",
-          'password' => "required"
+          'ip' => "required",
+          'lat' => "required",
+          'lon' => "required"
         ])) {
             return $this->response->setJSON(['error'=>true,'message'=>'Harap isi dengan lengkap.']);
         }
@@ -29,9 +30,12 @@ class Presensi extends BaseController
 
         $param = ['LAT'=>$lat,'LON'=>$lon];
 
+        $server = session('server');
+
         // try {
           $response = $client->request('GET', $server.'/mobile/home/absen/'.$ip.'?'.http_build_query($param), [
-              'verify' => false
+              'verify' => false,
+              'headers' => ['Authorization' => 'Bearer '.session('token')]
           ]);
 
           $response = json_decode($response->getBody());

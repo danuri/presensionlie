@@ -15,3 +15,4 @@ use CodeIgniter\Router\RouteCollection;
  $routes->get('home', 'Home::index',['filter' => 'auth']);
 
  $routes->get('presensi', 'Presensi::index',['filter' => 'auth']);
+ $routes->post('presensi/checkin', 'Presensi::checkin',['filter' => 'auth']);

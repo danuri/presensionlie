@@ -46,6 +46,7 @@ class Auth extends BaseController
               'server'     => $server,
               'nip'        => $response->user->id,
               'nama'       => $response->user->name,
+              'token'       => $response->token,
               'isLoggedIn' => TRUE
             ];
             session()->set($ses_data);

@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="<?= base_url()?>assets/style.css">
 
   <!-- Web App Manifest -->
-  <link rel="manifest" href="<?= base_url()?>assets/manifest.json">
+  <link rel="manifest" href="<?= base_url()?>manifest.json">
 </head>
 
 <body>
@@ -227,6 +227,8 @@
   <script src="<?= base_url()?>assets/js/dark-rtl.js"></script>
   <script src="<?= base_url()?>assets/js/active.js"></script>
   <script src="<?= base_url()?>assets/js/pwa.js"></script>
+
+  <?= $this->renderSection('script') ?>
 </body>
 
 </html>
