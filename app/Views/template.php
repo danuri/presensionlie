@@ -6,14 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Affan - PWA Mobile HTML Template">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
   <meta name="theme-color" content="#0134d4">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- Title -->
-  <title>Affan - PWA Mobile HTML Template</title>
+  <title>Simpeg Personal - Biro Kepegawaian Kementerian Agama RI</title>
 
   <!-- Favicon -->
   <link rel="icon" href="<?= base_url()?>assets/img/core-img/favicon.ico">
